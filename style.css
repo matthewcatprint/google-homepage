@@ -5,43 +5,118 @@ body{
     font-size: small;
 }
 
-.nav{
-    background-color: white;
-    position: fixed;
-  }
-
-.nav p{
-    text-align: center;
-    display: inline-block;
-    padding-left: 15px;
+#nav p{
     color: #000;
     opacity: 0.75;
-}
-
-.main {
-  margin: auto;
-  padding-top: 100px;
-}
-
-.main img{
-    display: block;
-    height: 202px;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-}
-
-.main input{
-    display: block;
-    height: 20px;
-    width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main button{
     display: inline-block;
-    height: 20px;
-    width: 70px;
+    margin: 10px 10px;
+    padding: 0;
+   
 }
+
+#nav p:hover{
+    text-decoration: underline;
+}
+
+
+#nav #left {
+    padding-right: 10px;
+    float: left;
+}
+
+#nav #right {
+    padding-right: 10px;
+    float: right;
+}
+
+#nav #apps {
+    width: 24px; 
+    height: 24px; 
+    display: inline-block;
+    background-color: #555;
+
+}
+
+#main {
+    padding-top: 200px;
+    text-align: center
+    
+}
+
+#main #logo{
+    display: block;
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#main #search{
+    display: inline-block;
+    position: relative;
+    box-shadow:  .5px .5px grey;
+
+}
+
+#main #search input {
+    width: 520px; 
+    height: 34px;
+}
+
+#main #search img {
+    width: 24px; 
+    height: 24px; 
+    position: absolute;
+    top: 9px;
+    left: 490px;
+}
+
+#main #button{
+    display: inline-block;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+#main #button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer p{
+    color: #000;
+    opacity: 0.75;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;</a>
+    padding: 10px;
+}
+
+#footer #left {
+    padding-right: 10px;
+    float: left;
+}
+
+#footer #right {
+    padding-right: 10px;
+    float: right;
+}
+
+#footer p:hover{
+    text-decoration: underline;
+}
+

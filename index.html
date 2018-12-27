@@ -12,25 +12,43 @@
 </head>
 
 <body>
-    <div class="nav">
-        <p>About</p>
-        <p>Store</p>
-        <p>Gmail</p>
-        <p>Images</p>
-        <p>Icon</p>
-        <p>Sign in</p>
+    <div id="nav">
+        <div id="left">
+            <p>About</p>
+            <p>Store</p>
+        </div>
+        <div id="right">
+            <p>Gmail</p>
+            <p>Images</p>
+            <p> <img id="apps" src ="http://www.englewoodschools.net/sites/default/files/archive/images/GoogleAppsIcon.png"> </p>
+            <p>Sign in</p>
+        </div>
     </div>
 
-    <div class="main">
-        <img src="logo_main.png" alt="Logo Main">
-        <input class="search" type="text" placeholder=" ">
-        <button class="button">Button</button>
-        <button class="button">Button</button>
+    <div id="main">
+        <img id="logo" src="logo_main.png" alt="Logo Main">
+        <form id="labnol" method="get" action="https://www.google.com/search">
+            <div id="search">
+              <input type="text" placeholder=" " >
+              <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" />
+            </div>
+        </form>
+        <button id="button">Google Search</button>
+        <button id="button">I'm Feeling Lucky</button>
     </div>
 
-        
+    <div id="footer">
+         <div id="left">
+            <p>Advertising</p>
+            <p>Business</p>
+        </div>
+        <div id="right">
+            <p>Privacy</p>
+            <p>Terms</p>
+            <p>Settings</p>
+        </div>
     </div>
+
 
 </body>
 
-</html>
