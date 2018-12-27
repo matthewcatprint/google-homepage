@@ -32,9 +32,9 @@ body{
 #nav #apps {
     width: 24px; 
     height: 24px; 
-    display: inline-block;
-    background-color: #555;
-
+    vertical-align: middle;
+    color: #000;
+    opacity: 0.75;
 }
 
 #main {
